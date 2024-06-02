@@ -74,7 +74,7 @@ void main (void)
         exit(0);
     }
     /* Reading from file : */
-    printf("\n Liste des valeurs lues : \n");
+    printf("\n List of values ​​read: \n");
     /*Filling the buffer and processing, as many times as necessary until the end of the file. : */
     while ( nb_val_lues == TAILLE_BUF ) /* vrai tant que fin du fichier non atteinte */
     {

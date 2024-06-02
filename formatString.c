@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <fcntl.h>
 
 int main(void){
     int fd, i;
     char buffer[1024];
-    fd=open("texte.txt", O_RDONLY);
+    fd= open("texte.txt", O_RDONLY);
     if(fd<0) exit(0);
     read(fd, buffer, 1024);
     printf(buffer);

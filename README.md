@@ -12,3 +12,5 @@ Macros var_start, var_arg, var_end
 printf()
 printf(ARG1, ARG2...ARGN);
 ```
+
+### so what happens if we don't give the right number of arguments to printf().

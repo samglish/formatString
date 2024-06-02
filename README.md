@@ -134,3 +134,7 @@ Type "apropos word" to search for commands related to "word"...
 Reading symbols from ./FS...
 (gdb) 
 ```
+* let's locate the fault.
+```terminal
+(gdb)isass main
+```

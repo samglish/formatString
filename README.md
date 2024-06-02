@@ -31,3 +31,6 @@ printf("%s", argv[1]);
 
 ## Solution
 <hr>
+
+* Direct parameter access > Specify the address to write to.
+* Minimum size > writing a specific value.

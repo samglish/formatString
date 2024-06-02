@@ -44,3 +44,8 @@ printf("%s", argv[1]);
 <p>once the function is overwritten, the program jumps to the shellcode address.</p>
 
 <img src="fString.png" width="70%">
+
+## GOT - Global Offset Table
+<hr>
+
+<img src="GOT.png" width="70%">

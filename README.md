@@ -43,4 +43,4 @@ printf("%s", argv[1]);
 <p>overwriting the pointer with the shellcode address.</p>
 <p>once the function is overwritten, the program jumps to the shellcode address.</p>
 
-<img src="fString.png" width="40%">
+<img src="fString.png" width="70%">

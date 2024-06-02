@@ -52,7 +52,7 @@ printf("%s", argv[1]);
 
 <hr>
 
-## Test 
+## The program
 <hr>
 
 ```c

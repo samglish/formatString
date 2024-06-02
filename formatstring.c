@@ -2,28 +2,28 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <fcntl.h>
-#define TAILLE_BUF 4 /* valeur quelconque (en gÃ©nÃ©ral, beaucoup plus grande) */
+#define TAILLE_BUF 4 
 void main (void)
 {
     FILE* fic ;
-    short int buffer[TAILLE_BUF]; /* ce tableau mÃ©morisera les valeurs lues dans le fichier */
+    short int buffer[TAILLE_BUF]; /* this table stores the values ​​read in the file.*/
     short int i, nb_val_lues = TAILLE_BUF ;
-    /* Ouverture du fichier (en lecture binaire) : */
+    /* Opening the file (binary reading). : */
     fic = fopen( "exemple.dat", "rb") ;
     if ( fic==NULL )
     {
         printf("Ouverture du fichier impossible !");
         exit(0);
     }
-    /* Lecture dans le fichier : */
+    /* Reading from file : */
     printf("\n Liste des valeurs lues : \n");
-    /*Remplissage du buffer et traitement, autant de fois que nÃ©cessaire jusqu'Ã  la fin fichier : */
+    /*Filling the buffer and processing, as many times as necessary until the end of the file. : */
     while ( nb_val_lues == TAILLE_BUF ) /* vrai tant que fin du fichier non atteinte */
     {
         nb_val_lues = fread( buffer, sizeof(short int), TAILLE_BUF, fic);
-        /* Traitement des valeurs stockÃ©es dans le buffer (ici, un simple affichage) : */
+        /* Processing the values ​​stored in the buffer (here, a simple display) : */
         for (i=0; i<nb_val_lues; i++) printf( "%hd", buffer[i] );
     }
-    /* Fermeture du fichier : */
+    /* Closing the file : */
     fclose( fic ) ;
 }

@@ -136,7 +136,8 @@ Reading symbols from ./FS...
 ```
 * let's locate the fault.
 ```terminal
-(gdb)isass main
+(gdb)disassemble main
+
 ```
 output
 

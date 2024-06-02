@@ -138,3 +138,5 @@ Reading symbols from ./FS...
 ```terminal
 (gdb)isass main
 ```
+output
+

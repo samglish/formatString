@@ -140,7 +140,8 @@ Reading symbols from ./FS...
 
 ```
 output
-````
+
+````terminal
 Dump of assembler code for function main:
    0x0000555555555185 <+0>:	push   %rbp
    0x0000555555555186 <+1>:	mov    %rsp,%rbp
@@ -160,7 +161,7 @@ Dump of assembler code for function main:
    0x00005555555551cf <+74>:	lea    0xe64(%rip),%rdi        # 0x55555555603a
    0x00005555555551d6 <+81>:	call   0x555555555030 <puts@plt>
    0x00005555555551db <+86>:	jmp    0x555555555240 <main+187>
---Type <RET> for more, q to quit, c to continue without paging--
+ --Type <RET> for more, q to quit, c to continue without paging--
    0x00005555555551dd <+88>:	mov    -0x10(%rbp),%rdx
    0x00005555555551e1 <+92>:	lea    -0x810(%rbp),%rax
    0x00005555555551e8 <+99>:	mov    %rdx,%rcx
@@ -183,7 +184,7 @@ Dump of assembler code for function main:
    0x000055555555522f <+170>:	add    $0x1,%eax
    0x0000555555555232 <+173>:	mov    %ax,-0x2(%rbp)
    0x0000555555555236 <+177>:	movzwl -0x2(%rbp),%eax
---Type <RET> for more, q to quit, c to continue without paging--
+  --Type <RET> for more, q to quit, c to continue without paging--
    0x000055555555523a <+181>:	cmp    -0x4(%rbp),%ax
    0x000055555555523e <+185>:	jl     0x555555555209 <main+132>
    0x0000555555555240 <+187>:	cmpw   $0x400,-0x4(%rbp)
@@ -195,4 +196,4 @@ Dump of assembler code for function main:
    0x0000555555555255 <+208>:	leave  
    0x0000555555555256 <+209>:	ret    
 ```
-
+## Two detected

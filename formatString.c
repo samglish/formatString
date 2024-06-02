@@ -1,14 +1,14 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <fcntl.h>
-
-int main(void){
-    int fd, i;
+#include <stdlib.h>
+int main(){
+FILE* fd = NULL;
+int i;   
     char buffer[1024];
-    fd= open("texte.txt", O_RDONLY);
-    if(fd<0) exit(0);
-    read(fd, buffer, 1024);
+    fd = fopen("texte.txt", O_RDONLY);
+    if (fd < 0) exit ( 0 );
+    fread( buffer, sizeof(short int), 1024, fd);
     printf(buffer);
-    close(fd);
+    fclose(fd);
     return 0;
 }

@@ -5,3 +5,4 @@ Particular vulnerability to study
 ```c
 <type> function (<type>, ARG1);
 ```
+Macros var_start, var_arg, var_end

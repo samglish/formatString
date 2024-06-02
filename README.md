@@ -86,3 +86,11 @@ void main (void)
     fclose( fic ) ;
 }
 ```
+## Test
+<hr>
+
+* show file `texte.txt`
+```terminal
+cat texte.txt
+``` 
+

@@ -93,4 +93,9 @@ void main (void)
 ```terminal
 cat texte.txt
 ``` 
+output
+```
+%x%x%x%x%x%x%x%x%x%x%x%x%x%x%x
+
+```
 

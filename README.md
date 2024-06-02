@@ -102,4 +102,13 @@ output
 ```terminal
 $gcc -g -0 FS formatstring.c
 ```
+* execute
+```terminal
+$./FS
+```
+output
+```
+Liste des valeurs lues : 
+307573075730757307573075730757307573075730757307573075730757307573075730757
+```
 

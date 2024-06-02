@@ -28,3 +28,6 @@ printf("%s", argv[1]);
 ### useful formats for exploitation
 * %x : hexadecimal display of a provided value
 * %hn : writing the number of bytes processed by printf provided
+
+## Solution
+<hr>

@@ -91,11 +91,15 @@ void main (void)
 
 * show file `texte.txt`
 ```terminal
-cat texte.txt
+$cat texte.txt
 ``` 
 output
 ```
 %x%x%x%x%x%x%x%x%x%x%x%x%x%x%x
 
+```
+* Compile formatstring.c
+```terminal
+$gcc -g -0 FS formatstring.c
 ```
 

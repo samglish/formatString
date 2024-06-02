@@ -34,3 +34,6 @@ printf("%s", argv[1]);
 
 * Direct parameter access > Specify the address to write to.
 * Minimum size > writing a specific value.
+* by forcing the formatting we prevent the hacker from wandering around and rewriting our stack.
+## Exploit
+<hr>

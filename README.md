@@ -115,4 +115,9 @@ Liste des valeurs lues :
 ```terminal
 gdb -q ./FS
 ```
+output
+```
+Reading symbols from ./FS...
+(gdb) 
+```
 

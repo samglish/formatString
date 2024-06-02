@@ -111,4 +111,8 @@ output
 Liste des valeurs lues : 
 307573075730757307573075730757307573075730757307573075730757307573075730757
 ```
+* let's find out where the fault lies.
+```terminal
+gdb -q ./FS
+```
 

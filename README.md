@@ -41,6 +41,6 @@ printf("%s", argv[1]);
 * shellcode injection
 <p>looking for a function pointer after calling printf.</p>
 <p>overwriting the pointer with the shellcode address.</p>
-<p>overwriting the pointer with the shellcode address.</p>
+<p>once the function is overwritten, the program jumps to the shellcode address.</p>
 
 <img src="formString.png" width="70%">

@@ -67,10 +67,10 @@ void main (void)
     short int buffer[TAILLE_BUF]; /* this table stores the values ​​read in the file.*/
     short int i, nb_val_lues = TAILLE_BUF ;
     /* Opening the file (binary reading). : */
-    fic = fopen( "exemple.dat", "rb") ;
+    fic = fopen( "texte.txt", "rb") ;
     if ( fic==NULL )
     {
-        printf("Ouverture du fichier impossible !");
+        printf("Unable to open file !");
         exit(0);
     }
     /* Reading from file : */

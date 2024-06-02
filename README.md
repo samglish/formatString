@@ -20,3 +20,8 @@ printf(ARG1, ARG2...ARGN);
 ## The fault
 using user input in a format string.
 ### Example
+```c
+printf(argv[1]);
+
+printf("%s", argv[1]);
+```

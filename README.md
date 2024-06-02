@@ -13,4 +13,6 @@ printf()
 printf(ARG1, ARG2...ARGN);
 ```
 
-### so what happens if we don't give the right number of arguments to printf().
+### so what happens if we don't give the right number of arguments to printf()?
+
+<img src="formString.png" width="70%">

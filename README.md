@@ -203,5 +203,4 @@ Dump of assembler code for function main:
 0x00005555555551c0 <+59>:	call   0x555555555060 <printf@plt>
 0x0000555555555226 <+161>:	call   0x555555555060 <printf@plt>
 ```
-# social
-https://samglishinc.000webhostapp.com
+
